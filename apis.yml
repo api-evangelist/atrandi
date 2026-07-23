@@ -1,8 +1,13 @@
 aid: atrandi
 name: Atrandi
-description: 'Atrandi is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Atrandi Biosciences (founded 2016 in Lithuania as Droplet Genomics) is a life-sciences
+  tools company building droplet-microfluidic platforms and its patented Semi-Permeable Capsule (SPC)
+  technology for single-cell analysis. SPCs isolate individual cells while letting reagents diffuse
+  freely, enabling complex multi-step single-cell genomics, multiomics, and microbial whole-genome
+  sequencing workflows. Atrandi ships instruments (Flux, Onyx, Styx), application kits, and consumables
+  used by 200+ research groups worldwide. The company is a wet-lab instrumentation and consumables
+  vendor and publishes no public developer API; this profile was surfaced as a portfolio company of
+  Lux Capital and enriched with verified public identity, web properties, and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/atrandi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +15,59 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://atrandi.com/favicon.ico
 tags:
 - Company
 - Biotech
+- Life Sciences
+- Single-Cell Analysis
+- Genomics
+- Microfluidics
+- Multiomics
+- Laboratory Instruments
 apis: []
+common:
+- type: Website
+  url: https://atrandi.com/
+- type: About
+  url: https://atrandi.com/about
+- type: Blog
+  url: https://atrandi.com/blog
+- type: Support
+  url: https://atrandi.com/contact
+- type: Products
+  url: https://atrandi.com/products
+- type: PrivacyPolicy
+  url: https://atrandi.com/privacy-policy
+- type: TermsOfService
+  url: https://atrandi.com/terms-conditions
+- type: Compliance
+  url: https://atrandi.com/quality-management
+- type: LinkedIn
+  url: https://www.linkedin.com/company/atrandi
+- type: DomainSecurity
+  url: security/atrandi-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
